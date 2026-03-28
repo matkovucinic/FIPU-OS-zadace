@@ -54,4 +54,7 @@ style.css
 
 Zadatak 5
 
-cd /mnt/c/Users/PC/Documents
+cd /mnt/c/Users/PC/
+ls -laS
+ls -lhS
+tree -a 
