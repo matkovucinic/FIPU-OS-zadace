@@ -11,6 +11,9 @@ echo 'VJEZBE=0S' > vjezba_2/data/.env
 Sadržaj svih datoteka u CLI provjeravamo s  ls -a
 
 Zadatak 3
-
-
-
+cp -r vjezba_2/data/* vjezba_2/backup/
+cp -r vjezba_2/data/.* vjezba_2/backup
+cp -v vjezba_2/data/* vjezba_2/backup/
+cp -v vjezba_2/data/.* vjezba_2/backup/
+cd vjezba_2/data
+ls -laS ../backup
