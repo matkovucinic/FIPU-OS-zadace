@@ -1,3 +1,8 @@
+Zadatak 1
+
+mkdir Os_2
+touch OS_2/vjezba_2.txt
+
 Zadatak 2
 
 mkdir -p vjezba_2/data
