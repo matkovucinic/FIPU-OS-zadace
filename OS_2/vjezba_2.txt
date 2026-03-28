@@ -54,7 +54,7 @@ style.css
 
 Zadatak 5
 
-cd /mnt/c/Users/PC/
+cd /mnt/c/Users/PC/HoldemResources
 ls -laS
 ls -lhS
 tree -a 
