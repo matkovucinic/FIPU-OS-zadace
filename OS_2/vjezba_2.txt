@@ -1,0 +1,54 @@
+Zadatak 2
+
+mkdir -p vjezba_2/data
+mkdir -p vjezba_2/backup
+touch vjezba_2/data/script.js
+touch vjezba_2/data/style.css
+touch vjezba_2/data/.env
+echo 'console.log("Hello World!")' > vjezba_2/data/script.js
+echo 'body { background-color:#f0f0f0; }' > vjezba_2/data/style.css
+echo 'VJEZBE=0S' > vjezba_2/data/.env
+Sadržaj svih datoteka u CLI provjeravamo s  ls -a
+
+Zadatak 3
+
+cp -r vjezba_2/data/* vjezba_2/backup/
+cp -r vjezba_2/data/.* vjezba_2/backup
+cp -v vjezba_2/data/* vjezba_2/backup/
+cp -v vjezba_2/data/.* vjezba_2/backup/
+cd vjezba_2/data
+ls -laS ../backup
+
+Zadatak 4 
+
+cd vjezba_2/data
+rm -vir style.css y
+rm -vir script.js y
+cp -nv ../backup/* .
+cp -nv ../backup/.* .
+ls -ltA1
+Ostale zastavice naredbe ls:
+1.ls -lt 
+total 2
+-rw-r--r-- 1 PC 197609 28 Mar 28 15:24 script.js
+-rw-r--r-- 1 PC 197609 35 Mar 28 15:24 style.css
+2.ls -laS 
+total 3
+-rw-r--r-- 1 PC 197609 35 Mar 28 15:24 style.css
+-rw-r--r-- 1 PC 197609 28 Mar 28 15:24 script.js
+-rw-r--r-- 1 PC 197609 10 Mar 28 15:09 .env
+drwxr-xr-x 1 PC 197609  0 Mar 28 15:24 ./
+drwxr-xr-x 1 PC 197609  0 Mar 28 15:08 ../
+3.ls -lR -t 
+.:
+total 2
+-rw-r--r-- 1 PC 197609 28 Mar 28 15:24 script.js
+-rw-r--r-- 1 PC 197609 35 Mar 28 15:24 style.css
+4.ls -l 
+total 2
+-rw-r--r-- 1 PC 197609 28 Mar 28 15:24 script.js
+-rw-r--r-- 1 PC 197609 35 Mar 28 15:24 style.css
+5.ls -A --color -1
+.env
+script.js
+style.css
