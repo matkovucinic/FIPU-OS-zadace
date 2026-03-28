@@ -1,0 +1,106 @@
+    1  pwd
+    2  mkdir -p vjezba_2/data
+    3  mkdir -p vjezba_2/backup
+    4  touch vjezba_2/data/script.js
+    5  touch vjezba_2/data/style.css
+    6  touch vjezba_2/data/.env
+    7  echo 'console.log("Hello World!")' > vjezba_2/data/script.js
+    8  echo 'body { background-color:#f0f0f0; }' > vjezba_2/data/style.css
+    9  echo 'VJEZBE=0S' > vjezba_2/data/.env
+   10  ls -a
+   11  git add .
+   12  git commit -m "Rijesen 2 zadatak"
+   13  git push
+   14  cp -r vjezba_2/data/* vjezba_2/backup/ 
+   15  cp -r vjezba_2/data/.* vjezba_2/backup
+   16  cp -v vjezba_2/data/* vjezba_2/backup/
+   17  cp -v vjezba_2/data/.* vjezba_2/backup/
+   18  cd vjezba_2/data
+   19  ls -laS ../backup
+   20  git add .
+   21  git commit -m "Rijesen treci zadatak"
+   22  git add vjezba_2
+   23  git add vjezba_2/backup
+   24  cd ..
+   25  cd ..
+   26  git add .
+   27  git commit -m "Rijesen treći zadatak"
+   28  git push
+   29  cd vjezba_2/data
+   30  rm -vir style.css
+   31  rm vir script.js
+   32  rm -vir script.js
+   33  cp -nv ../backup/* .
+   34  cp -nv ../backup/.* .
+   35  ls -ltA1
+   36  ls -lt
+   37  ls -laS
+   38  ls -lR -t
+   39  ls -l
+   40  ls -A --color -1
+   41  git add .
+   42  git commit -m"Rijesen četvrti zadatak"
+   43  git commit -m "Riješen četvrti zadatak"
+   44  git push
+   45  cd ..
+   46  cd ..
+   47  git add .
+   48  git commit -m "Riješen četvrti zadatak"
+   49  git push
+   50  cd mnt/c/Users
+   51  cd /mnt/c/Users
+   52  cd Os_2
+   53  touch vjezbe_2_history.txt
+   54  cd..
+   55  cd ..
+   56  history >vjezba_2_history.txt
+
+   Ovo sam kopiro iz Shella za 5. zadatak  jer nisam uspio u vsc promjenit Usera
+   
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/matkovucinic$ code Github
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/matkovucinic$ cd Github
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/matkovucinic/Github$ code FIPU-OS-zadace
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/matkovucinic/Github$ cd /mnt/c/Users/Pc
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/Pc$ cd HoldemResources
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/Pc/HoldemResources$ ls -laS
+total 0
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4096 Mar 28 14:38  .
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4096 Mar 28 11:02  ..
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4096 May 25  2023  .metadata
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4096 May 25  2023  SavedHands
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4096 Feb 26 21:16 'vjezbe C++'
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4096 Nov 28 15:10 'zadaci C++'
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/Pc/HoldemResources$ ls -lhS
+total 0
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4.0K May 25  2023  SavedHands
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4.0K Feb 26 21:16 'vjezbe C++'
+drwxrwxrwx 1 pcmatkovucinic pcmatkovucinic 4.0K Nov 28 15:10 'zadaci C++'
+pcmatkovucinic@DESKTOP-R85JL0V:/mnt/c/Users/Pc/HoldemResources$ tree -a
+.
+├── .metadata
+│   ├── .log
+│   └── .plugins
+│       ├── net.holdemresources.calculator
+│       │   ├── rangesdata
+│       │   └── structuredata
+│       │       └── lastused.json
+│       ├── org.eclipse.core.runtime
+│       │   └── .settings
+│       │       ├── net.holdemresources.calculator.prefs
+│       │       └── org.eclipse.ui.workbench.prefs
+│       ├── org.eclipse.e4.workbench
+│       │   └── workbench.xmi
+│       ├── org.eclipse.equinox.p2.ui
+│       │   └── dialog_settings.xml
+│       └── org.eclipse.ui.workbench
+│           └── dialog_settings.xml
+├── SavedHands
+├── vjezbe C++
+│   ├── Ispit 26.02. Matko Vucinic.cpp
+│   └── Ispit 26.02. Matko Vucinic.exe
+└── zadaci C++
+    ├── zadaci.md
+    ├── zadaci_27112025.md
+    └── zadaci_demos_2.md
+
+14 directories, 12 files

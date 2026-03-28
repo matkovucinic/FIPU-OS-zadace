@@ -52,3 +52,9 @@ total 2
 .env
 script.js
 style.css
+
+Zadatak 5 
+cd /mnt/c/Users/PC/HoldemResources
+ls -laS
+ls -lhS
+tree -a 
