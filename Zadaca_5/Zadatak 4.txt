@@ -1,0 +1,20 @@
+Zadatak 4 
+r=4
+w=2
+x=1
+-=0
+Oktalne reprezentacije dozvola
+1) rwxr-xr-x = 755 
+Vlasnik može čitati, pisati i izvršavati, grupa može čitati i izvršavati, korisnici čitati i izvršavati.
+2) rw-r--r-- = 644
+Vlasnik može čitati i pisati, grupa čitati, korisnici čitati.
+3) rwx------= 700 
+Vlasnik može čitati, pisati i izvršavati, grupe i korisnici ne mogu ništa.
+4) rw-rw-r-- = 664
+Vlasnik može čitati i pisati, grupa čitati i pisati, korisnici čitati.
+5) rwxrwxrwx = 777
+Svi imaju sve dozvole.
+6) r--r--r-- = 444
+Svi mogu samo čitati.
+7) rw------- = 600
+Vlasnik može čitati i pisati, grupe i korisnici ne mogu ništa.

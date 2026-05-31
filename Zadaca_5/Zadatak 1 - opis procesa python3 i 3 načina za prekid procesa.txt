@@ -1,0 +1,12 @@
+Na slici vidimo
+PID 2765 što je jedinstveni identifikator procesa, pokreće ga korisnik matkovucinic 
+PRI označava prioritet koji je 20, NI označava nice value koji je 0. Dakle, radi se o normalnom procesu(ne real-time) koji ima zadani prioritet
+Proces koristi ukupno 18684 KiB virtualne memorije, od čega 9972 KiB fizičke memorije. Veliki dio fizičke memorije je dijeljen s drugim procesima(6884KiB).
+Proces trenutno spava, ne zauzima CPU, ali koristi 0.3% fizičke memorije. Procesor je koristio ukupno ~0 sekundi od pokretanja.
+Naredba koja je pokrenula proces je python3 hello.py.
+
+Prekidanje procesa naredbama kill
+
+kill -9 2765 - SIGKILL -  prisilno prekida proces, ne može se obraditi
+kill -15 2765 - SIGTERM  - šalje procesu zahtjev za prekidom, proces može obraditi signal i završiti se na "ljubazan" način
+kill - -1 2765 - SIGHUP - šalje procesu signal za ponovno učitavanje konfiguracije, često se koristi za ponovno učitavanje usluga
